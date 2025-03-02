@@ -1,0 +1,71 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family:  Arial, sans-serif;
+    background-color: #f0f0f0;
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.Tarjeta{
+    width: 500px;
+    background-color: #fff;
+    border-radius: 30px;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+}
+
+.Tarjeta__header{
+    text-align: center;
+    background-color: #fff;
+    padding: 15px;
+}
+
+.Tarjeta__header h2 {
+    font-size: 18px;
+    color: #333;
+}
+
+.Tarjeta__body{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px;
+}
+
+.imagen_perfil img {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    object-fit: cover;
+    border: 3px solid #10c409;
+}
+
+.informacion_tarjeta{
+    flex: 1;
+    margin: 0 20px;
+}
+
+.informacion_tarjeta h3 {
+    font-size: 24px;
+    color: #333;
+    margin-bottom: 5px;
+}
+
+.informacion_tarjeta p {
+    font-size: 14px;
+    color: #666;
+    margin-bottom: 3px;
+}
+
+.logolinkedin img {
+    width: 40px;
+    height: 40px;
+    object-fit: contain;
+}   
